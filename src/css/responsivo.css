@@ -1,0 +1,27 @@
+@media(max-width: 1120px) {
+
+  .container {
+    padding: 20px 40px;
+    width: 500px;
+  }
+
+  .title-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .campo {
+    position: relative;
+    width: 300px;
+  }
+
+  .name, .email, .password, .confirm-password, .button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    font-family: inherit;
+    border: 0;
+    border-radius: 5px;
+  }
+
+}
