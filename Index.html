@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <main class="container">
+    <form method="post">
+      <div class="title-container">
+        <h2 class="title-form">Signup</h2>
+        <p class="title">Just some details to get you in.!</p>
+      </div>
+
+
+      <div class="campo">
+        <input class="name" type="text" name="name" id="nome" placeholder="Username" required>
+      </div>
+
+      <div class="campo">
+        <input class="email" type="email" name="email" id="email" placeholder="Email" required>
+      </div>
+
+      <div class="campo">
+        <input class="password" type="password" name="password" id="password" placeholder="Password" required>
+      </div>
+      <div class="campo">
+        <input class="confirm-password" type="password" name="confirm-password" id="confirm" placeholder="Confirm Password" required>
+      </div>
+      <button href="#" class="button">Signup</button>
+    </form>
+
+
+      <p class="or"><div class="barra"></div> Or <div class="barra"></div></p>
+
+
+    <div class="logins">
+      <a id="goole" href="https://www.google.com/"><img src="./src/img/devicon_google.svg" alt="Google"></a>
+      <a id="face" href="https://pt-br.facebook.com/"><img src="./src/img/logos_facebook.svg" alt="Facebook"></a>
+      <a id="git" href="https://github.com/"><img src="./src/img/bi_github.svg" alt="Github"></a>
+    </div>
+
+    <footer class="rodape">
+      <p class="termo">Already Registered?<a id="login" href="#">Login</a></p>
+      <p id="terms" class="termos">Terms & Conditions</p>
+      <p id="support" class="termos">Support</p>
+      <p id="custumer" class="termos">Custumer Care</p>
+    </footer>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+  </html>
